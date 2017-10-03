@@ -1,4 +1,4 @@
-package br.edu.unifei.ecoi09.starwars;
+package br.edu.unifei.ecoi09.starwars.main;
 
 public class Main {
 
