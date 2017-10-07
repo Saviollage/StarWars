@@ -5,6 +5,7 @@ public class Personagem {
     int power;
     int agility;
     int precision;
+    int honor;
 
 
 // Definiçao dos atributos dos personagens

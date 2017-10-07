@@ -1,3 +1,4 @@
+package br.edu.unifei.ecoi09.starwars.main;
 import br.edu.unifei.ecoi09.starwars.domain.LightsaberColor;
 import br.edu.unifei.ecoi09.starwars.domain.Sith;
 import org.junit.Assert;
