@@ -4,6 +4,9 @@ public enum LightsaberColor {
     NEUTRAL("Neutral"),
     BLUE ("Blue"),    //Pode ser substituído pelo código de cores
     RED ("Red"),
+    BLUE_KNIGHT("Blue Knight"),
+    BLUE_PADAWAN("Blue Padawan"),
+    BLUE_MASTER("Blue Master"),
     GREEN("Green");
     //Adicionar aqui mais cores de lightsabers...
 
