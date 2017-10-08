@@ -6,10 +6,10 @@ public class Sith extends Jedi {
             this.name = sithBuilder.getName();
             this.birthPlanet = sithBuilder.getBirthPlanet();
             this.lightsaberColor = sithBuilder.getLightsaberColor();
-            this.force = sithBuilder.getForce();
-            this.velocity = sithBuilder.getVelocity();
-            this.hability = sithBuilder.getHability();
-            this.experience = sithBuilder.getExperience();
+            this.power = sithBuilder.getPower();
+            this.agility = sithBuilder.getAgility();
+            this.precision = sithBuilder.getPrecision();
+            this.honor = sithBuilder.getHonor();
             this.level = sithBuilder.getLevel();
             //Fazer o Tratamento para pegar a imagem do personagem
         }
@@ -24,23 +24,23 @@ public class Sith extends Jedi {
                 return this;
             }
 
-            public SithBuilder force(int force){
-                this.force = force;
+            public SithBuilder power(int power){
+                this.power = power;
                 return this;
             }
 
-            public SithBuilder velocity(int velocity){
-                this.velocity = velocity;
+            public SithBuilder agility(int agility){
+                this.agility = agility;
                 return this;
             }
 
-            public SithBuilder hability(int hability){
-                this.hability = hability;
+            public SithBuilder precision(int precision){
+                this.precision = precision;
                 return this;
             }
 
-            public SithBuilder experience(int experience){
-                this.experience = experience;
+            public SithBuilder honor(int honor){
+                this.honor = honor;
                 return this;
             }
 

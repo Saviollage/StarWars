@@ -1,19 +1,17 @@
-package br.edu.unifei.ecoi09.starwars.main;
 import br.edu.unifei.ecoi09.starwars.domain.LightsaberColor;
 import br.edu.unifei.ecoi09.starwars.domain.Sith;
 import org.junit.Assert;
 import org.junit.Test;
-
 import javax.swing.*;
 import java.awt.*;
 
-public class SithTest extends JPanel{
-    Sith darth_vader = new Sith.SithBuilder("Darth Vader","Tatooine","42.BBY","/icons/Dvader.jpeg")
+public class SithTest {
+    Sith darth_vader = new Sith.SithBuilder("Darth Vader","Tatooine","42.BBY","/icons/Sith/Dvader.jpg")
             .lightsaberColor(LightsaberColor.RED)
-            .force(34)
-            .velocity(3)
-            .hability(7)
-            .experience(8)
+            .power(34)
+            .agility(3)
+            .precision(7)
+            .honor(8)
             .level(32)
             .build();  //BYB significa Before Yavin Battle
 
@@ -39,23 +37,23 @@ public class SithTest extends JPanel{
 
     }
     @Test
-    public void shouldGetSithForce() throws Exception {
-        Assert.assertEquals(34,darth_vader.getForce());
+    public void shouldGetSithPower() throws Exception {
+        Assert.assertEquals(34,darth_vader.getPower());
     }
 
     @Test
-    public void shouldGetSithVelocity() throws Exception {
-        Assert.assertEquals(3,darth_vader.getVelocity());
+    public void shouldGetSithAgility() throws Exception {
+        Assert.assertEquals(3,darth_vader.getAgility());
     }
 
     @Test
-    public void shouldGetSithHability() throws Exception {
-        Assert.assertEquals(7,darth_vader.getHability());
+    public void shouldGetSithPrecision() throws Exception {
+        Assert.assertEquals(7,darth_vader.getPrecision());
     }
 
     @Test
-    public void shouldGetSithExperience() throws Exception {
-        Assert.assertEquals(8,darth_vader.getExperience());
+    public void shouldGetSithHonor() throws Exception {
+        Assert.assertEquals(8,darth_vader.getHonor());
     }
 
     @Test
@@ -65,15 +63,6 @@ public class SithTest extends JPanel{
 
     @Test
     public void shouldGetSithResourceImage() throws Exception {   //Testando se a imagem foi carregada corretamente(É melhor fazer isto na main)
-        Assert.assertEquals("/icons/Dvader.jpeg",darth_vader.getResourceImage());
-        JLabel label = new JLabel("Um texto de teste",darth_vader.getIcon(),JLabel.CENTER);
-        JPanel pane1 = new JPanel(new BorderLayout());
-        pane1.add(label,BorderLayout.CENTER);
-        JFrame tela = new JFrame();
-        tela.setLayout(new FlowLayout());
-        tela.setSize(200,300);
-        tela.add(pane1);
-        tela.setVisible(true);
-        tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Assert.assertEquals("/icons/Sith/Dvader.jpg",darth_vader.getResourceImage());
     }
 }
