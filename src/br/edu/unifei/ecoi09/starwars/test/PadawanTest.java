@@ -1,5 +1,6 @@
 import br.edu.unifei.ecoi09.starwars.domain.LightsaberColor;
 import br.edu.unifei.ecoi09.starwars.domain.Padawan;
+
 import org.junit.Assert;
 import org.junit.Test;
 
