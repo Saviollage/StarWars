@@ -1,5 +1,7 @@
 package br.edu.unifei.ecoi09.starwars.main;
 
+import br.edu.unifei.ecoi09.starwars.database.Database;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -49,7 +51,11 @@ public class Menu extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent game) {
         Object obj = game.getSource();
         if (obj == start) {
-            JOptionPane.showMessageDialog( null, "Deu certo essa KARALHAAAAA" );
+                Database test = new Database();
+                test.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
+                test.setSize( 1000, 1000 );
+                test.setVisible( true );
+
         }
         if (obj == help) {
             JOptionPane.showMessageDialog( null, "Iniciar :"  +
