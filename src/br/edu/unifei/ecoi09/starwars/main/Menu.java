@@ -2,69 +2,69 @@ package br.edu.unifei.ecoi09.starwars.main;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Menu extends JPanel implements MouseListener {
+public class Menu extends JPanel implements ActionListener {
 
-
+    JButton start = new JButton();
+    JButton help = new JButton();
+    JButton quit = new JButton();
 
     public Menu() {
-        setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-        add(Box.createVerticalStrut(280));
-        add(Box.createVerticalGlue());
-
-    }
-
-    @Override
-    public void paintComponent(Graphics g) {
-        super.paintComponent(g);
-        g.drawImage(new ImageIcon(Menu.class.getResource("Menu.jpg")).getImage(),0,0,1080,720,this);
-
-    }
+        setLayout( new BoxLayout( this, BoxLayout.Y_AXIS ) );
+        add( Box.createVerticalStrut( 280 ) );
+        add( Box.createVerticalGlue() );
 
 
-    @Override
-    public void mouseClicked(MouseEvent e) {
+        // "Zerar" Layout
+        setLayout( null );
 
-    }
 
-    @Override
-    public void mousePressed(MouseEvent e) {
-        int mx = e.getX();
-        int my = e.getY();
+        // Criacçao dos Botoes do menu inicial
 
-        //Menu area X
-        if (mx >= 565 && mx <= 1280) {
-            if (my >= 555 && my <= 690)     // Start game area
-            {
 
-            }
-            else if (my >= 700 && my <= 845) // Help area
-            {
+        start.setBounds( 320, 350, 400, 90 );
+        start.setVisible( true );
+        start.addActionListener( this ); // Iniciar Jogo
+        start.setContentAreaFilled( false );
+        start.setBorderPainted( false );
+        add( start );
 
-            }
-            else if (my >= 865 && my <= 1020)  //Quit area
-            {
+        help.setBounds( 430, 470, 190, 90 );
+        help.setVisible( true );
+        help.setContentAreaFilled( false );
+        help.setBorderPainted( false );
+        help.addActionListener( this );  // abrir JPAnel com Ajuda
+        add( help );
 
-            }
+        quit.setBounds( 430, 590, 190, 85 );
+        quit.setVisible( true );
+        quit.setContentAreaFilled( false );
+        quit.setBorderPainted( false );
+        quit.addActionListener( this ); // funcao de sair
+        add( quit );
+}
 
+    public void actionPerformed(ActionEvent game) {
+        Object obj = game.getSource();
+        if (obj == start) {
+            JOptionPane.showMessageDialog( null, "Deu certo essa KARALHAAAAA" );
+        }
+        if (obj == help) {
+            JOptionPane.showMessageDialog( null, "Iniciar :"  +
+                    "Para iniciar o jogo clique em Start Game" );//Texto de ajuda //
+        }
+        if (obj == quit) {
+            System.exit( 0 );
         }
 
     }
 
     @Override
-    public void mouseReleased(MouseEvent e) {
-
-    }
-
-    @Override
-    public void mouseEntered(MouseEvent e) {
-
-    }
-
-    @Override
-    public void mouseExited(MouseEvent e) {
+    public void paintComponent(Graphics g) {
+        super.paintComponent( g );
+        g.drawImage( new ImageIcon( Menu.class.getResource( "Menu.jpg" ) ).getImage(), 0, 0, 1080, 720, this );
 
     }
 

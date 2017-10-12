@@ -10,6 +10,7 @@ public class Humanoid {
 
 
     //Variáveis de combate(Serão utilizadas na hora do duelo de cartas)
+
     protected int power;
     protected int agility;
     protected int precision;
