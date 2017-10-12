@@ -1,102 +1,123 @@
+{
 "name" : "Yoda"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "verde"
 "power" : "95"
-'agility" = "95"
-"precision" = "95"
-"honor" = " "
-"level" = "100"
+"agility" : "95"
+"precision" : "95"
+"honor" : " "
+"level" : "100"
+}
 
+{
 "name" : "AAYLA SECURA"
-"birthPlanet" : "Aaylas'ecura"
+"birthPlanet" : "Aaylas"ecura"
 "lightsaberColor" : "azul"
 "power" : "69"
-'agility" = "75"
-"precision" = "75"
-"honor" = "90"
-"level" = "70"
+"agility" : "75"
+"precision" : "75"
+"honor" : "90"
+"level" : "70"
+}
 
+{
 "name" : "AHSOKA TANO"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "verde"
 "power" : "65"
-'agility" = "80"
-"precision" = "72"
-"honor" = " "
-"level" = "75"
+"agility" : "80"
+"precision" : "72"
+"honor" : " "
+"level" : "75"
+}
 
+{
 "name" : "CONDE DOOKAN"
 "birthPlanet" : "Serenno"
 "lightsaberColor" : "vermelho"
 "power" : "97"
-'agility" = "84"
-"precision" = "75"
-"honor" = "48"
-"level" = "91"
+"agility" : "84"
+"precision" : "75"
+"honor" : "48"
+"level" : "91"
+}
 
+{
 "name" : "ASAJJ VENTRESS"
 "birthPlanet" : "Dathomir"
 "lightsaberColor" : "verde"
 "power" : "75"
-'agility" = "86"
-"precision" = "81"
-"honor" = " 48"
-"level" = "100"
+"agility" : "86"
+"precision" : "81"
+"honor" : " 48"
+"level" : "100"
+}
 
+{
 "name" : "SITH"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "vermelho"
 "power" : "98"
-'agility" = "98"
-"precision" = "84"
-"honor" = "24"
-"level" = "99"
+"agility" : "98"
+"precision" : "84"
+"honor" : "24"
+"level" : "99"
+}
 
+{
 "name" : "Arca Jeth"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "azul"
 "power" : "100"
-'agility" = "93"
-"precision" = "87"
-"honor" = "84"
-"level" = "99"
+"agility" : "93"
+"precision" : "87"
+"honor" : "84"
+"level" : "99"
+}
 
+{
 "name" : "Lord Hoth"
 "birthPlanet" : "Kaal"
 "lightsaberColor" : "azul"
 "power" : "99"
-'agility" = "98"
-"precision" = "78"
-"honor" = "93"
-"level" = "92"
+"agility" : "98"
+"precision" : "78"
+"honor" : "93"
+"level" : "92"
+},
 
+{
 "name" : "Vodo-Sioski Baas"
 "birthPlanet" : "Krevas"
 "lightsaberColor" : "azul"
 "power" : "82"
-'agility" = "99"
-"precision" = "71"
-"honor" = "97"
-"level" = "99"
+"agility" : "99"
+"precision" : "71"
+"honor" : "97"
+"level" : "99"
+},
 
+{
 "name" : "Jaina Solo-Fel"
 "birthPlanet" : "Coruscant"
 "lightsaberColor" : "roxo"
 "power" : "78"
-'agility" = "91"
-"precision" = "87"
-"honor" = "82"
-"level" = "85"
+"agility" : "91"
+"precision" : "87"
+"honor" : "82"
+"level" : "85"
+},
 
+{
 "name" : "Nomi Sunrider"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "verde"
 "power" : "68"
-'agility" = "89"
-"precision" = "80"
-"honor" = "88"
-"level" = "88"
-
+"agility" : "89"
+"precision" : "80"
+"honor" : "88"
+"level" : "88"
+},
 
 
 

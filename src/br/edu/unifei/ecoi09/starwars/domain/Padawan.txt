@@ -1,71 +1,87 @@
+{
 "name" : "Bene"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "azul"
 "power" : "64"
-'agility" = "71"
-"precision" = "58"
-"honor" = "89"
-"level" = "50"
+"agility" : "71"
+"precision" : "58"
+"honor" : "89"
+"level" : "50"
+},
 
+{
 "name" : "Erza Bridger"
 "birthPlanet" : "Lothal"
 "lightsaberColor" : "azul"
 "power" : "66"
-'agility" = "74"
-"precision" = "68"
-"honor" = "79"
-"level" = "52"
+"agility" : "74"
+"precision" : "68"
+"honor" : "79"
+"level" : "52"
+},
 
+{
 "name" : "Zett Jukassa"
 "birthPlanet" : "Coruscant"
 "lightsaberColor" : "roxo"
 "power" : "60"
-'agility" = "78"
-"precision" = "57"
-"honor" = "88"
-"level" = "59"
+"agility" : "78"
+"precision" : "57"
+"honor" : "88"
+"level" : "59"
+},
 
+{
 "name" : "Knox"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "azul"
 "power" : "78"
-'agility" = "58"
-"precision" = "61"
-"honor" = "75"
-"level" = "49"
+"agility" : "58"
+"precision" : "61"
+"honor" : "75"
+"level" : "49"
+},
 
+{
 "name" : "Ahsoka Tano"
 "birthPlanet" : "Shili"
 "lightsaberColor" : "verde"
 "power" : "80"
-'agility" = "68"
-"precision" = "81"
-"honor" = "80"
-"level" = "60"
+"agility" : "68"
+"precision" : "81"
+"honor" : "80"
+"level" : "60"
+},
 
+{
 "name" : "Nes Ukul"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "roxo"
 "power" : "60"
-'agility" = "78"
-"precision" = "83"
-"honor" = "85"
-"level" = "64"
+"agility" : "78"
+"precision" : "83"
+"honor" : "85"
+"level" : "64"
+},
 
+{
 "name" : "Nahdar Vebb"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "azul"
 "power" : "76"
-'agility" = "88"
-"precision" = "63"
-"honor" = "90"
-"level" = "66"
+"agility" : "88"
+"precision" : "63"
+"honor" : "90"
+"level" : "66"
+},
 
+{
 "name" : "Whie Malreaux"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "verde"
 "power" : "56"
-'agility" = "72"
-"precision" = "81"
-"honor" = "91"
-"level" = "53"
+"agility" : "72"
+"precision" : "81"
+"honor" : "91"
+"level" : "53"
+}

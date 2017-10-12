@@ -1,35 +1,43 @@
+{
 "name" : "ANAKIN SKYWALKER"
 "birthPlanet" : "Tatooine"
 "lightsaberColor" : "azul"
 "power" : "95"
-'agility" = "95"
-"precision" = "95"
-"honor" = " 32"
-"level" = "95"
+"agility" : "95"
+"precision" : "95"
+"honor" : " 32"
+"level" : "95"
+},
 
+{
 "name" : "LUKE SKYWALKER"
 "birthPlanet" : "Polis Massa"
 "lightsaberColor" : "azul"
 "power" : "90"
-'agility" = "95"
-"precision" = "98"
-"honor" = "86 "
-"level" = "85"
+"agility" : "95"
+"precision" : "98"
+"honor" : "86 "
+"level" : "85"
+},
 
+{
 "name" : "MACE WINDU"
 "birthPlanet" : "Haruun Kal"
 "lightsaberColor" : "roxo"
 "power" : "90"
-'agility" = "92"
-"precision" = "91"
-"honor" = " 68"
-"level" = "92"
+"agility" : "92"
+"precision" : "91"
+"honor" : " 68"
+"level" : "92"
+},
 
+{
 "name" : "QUI-GON JINN"
 "birthPlanet" : "Desconhecido"
 "lightsaberColor" : "verde"
 "power" : "95"
-'agility" = "80"
-"precision" = "92"
-"honor" = "92 "
-"level" = "89"
+"agility" : "80"
+"precision" : "92"
+"honor" : "92 "
+"level" : "89"
+}

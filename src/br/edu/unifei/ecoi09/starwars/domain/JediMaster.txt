@@ -1,8 +1,10 @@
+{
 "name" : "Yoda"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "verde"
 "power" : "95"
-'agility" = "95"
-"precision" = "95"
-"honor" = "80"
-"level" = "100"
+"agility" : "95"
+"precision" : "95"
+"honor" : "80"
+"level" : "100"
+}

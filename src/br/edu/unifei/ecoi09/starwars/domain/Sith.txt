@@ -1,80 +1,98 @@
-"name" : "ANAKIN SKYWALKER"
+{
+name" : "ANAKIN SKYWALKER"
 "birthPlanet" : "Tatooine"
 "lightsaberColor" : "azul"
 "power" : "95"
-'agility" = "95"
-"precision" = "95"
-"honor" = " 32"
-"level" = "95"
+"agility" : "95"
+"precision" : "95"
+"honor" : " 32"
+"level" : "95"
+},
 
+{
 "name" : "Darth Bane"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "vermelho"
 "power" : "96"
-'agility" = "63"
-"precision" = "78"
-"honor" = " 27"
-"level" = "88"
+"agility" : "63"
+"precision" : "78"
+"honor" : " 27"
+"level" : "88"
+},
 
+{
 "name" : "Freedon Nadd"
 "birthPlanet" : "Onderon"
 "lightsaberColor" : "azul"
 "power" : "87"
-'agility" = "93"
-"precision" = "75"
-"honor" = " 45"
-"level" = "72"
+"agility" : "93"
+"precision" : "75"
+"honor" : " 45"
+"level" : "72"
+},
 
+{
 "name" : "Ulic Qel-Droma"
 "birthPlanet" : "Alderaan"
 "lightsaberColor" : "vermelho"
 "power" : "76"
-'agility" = "88"
-"precision" = "91"
-"honor" = " 62"
-"level" = "76"
+"agility" : "88"
+"precision" : "91"
+"honor" : " 62"
+"level" : "76"
+},
 
+{
 "name" : "Marka Ragnos"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "vermelho"
 "power" : "90"
-'agility" = "92"
-"precision" = "90"
-"honor" = " 20"
-"level" = "87"
+"agility" : "92"
+"precision" : "90"
+"honor" : " 20"
+"level" : "87"
+},
 
+{
 "name" : "Darth Revan"
 "birthPlanet" : "Outer RIm"
 "lightsaberColor" : "roxo"
 "power" : "98"
-'agility" = "89"
-"precision" = "78"
-"honor" = " 34"
-"level" = "93"
+"agility" : "89"
+"precision" : "78"
+"honor" : " 34"
+"level" : "93"
+},
 
+{
 "name" : "Darth Plagueis"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "vermelho"
 "power" : "82"
-'agility" = "68"
-"precision" = "79"
-"honor" = " 47"
-"level" = "85"
+"agility" : "68"
+"precision" : "79"
+"honor" : " 47"
+"level" : "85"
+},
 
+{
 "name" : "Darth Vitiate"
 "birthPlanet" : "Medriaas"
 "lightsaberColor" : "vermelho"
 "power" : "95"
-'agility" = "60"
-"precision" = "98"
-"honor" = " 62"
-"level" = "89"
+"agility" : "60"
+"precision" : "98"
+"honor" : " 62"
+"level" : "89"
+},
 
+{
 "name" : "Exar Kun"
 "birthPlanet" : "desconhecido"
 "lightsaberColor" : "azul"
 "power" : "99"
-'agility" = "99"
-"precision" = "86"
-"honor" = " 51"
-"level" = "97"
+"agility" : "99"
+"precision" : "86"
+"honor" : " 51"
+"level" : "97"
+}
