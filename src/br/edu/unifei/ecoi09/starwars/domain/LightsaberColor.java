@@ -7,6 +7,8 @@ public enum LightsaberColor {
     BLUE_KNIGHT("Blue Knight"),
     BLUE_PADAWAN("Blue Padawan"),
     BLUE_MASTER("Blue Master"),
+    GREEN_MASTER("Green Master"),
+    PURPLE_MASTER("Purple"),
     GREEN("Green");
     //Adicionar aqui mais cores de lightsabers...
 
