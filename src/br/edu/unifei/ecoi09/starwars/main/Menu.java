@@ -10,7 +10,6 @@ import java.awt.event.ActionListener;
 public class Menu extends JPanel implements ActionListener {
 
     JButton start = new JButton();
-    JButton help = new JButton();
     JButton quit = new JButton();
 
     public Menu() {
@@ -33,13 +32,6 @@ public class Menu extends JPanel implements ActionListener {
         start.setBorderPainted( false );
         add( start );
 
-        help.setBounds( 430, 470, 190, 90 );
-        help.setVisible( true );
-        help.setContentAreaFilled( false );
-        help.setBorderPainted( false );
-        help.addActionListener( this );  // abrir JPAnel com Ajuda
-        add( help );
-
         quit.setBounds( 430, 590, 190, 85 );
         quit.setVisible( true );
         quit.setContentAreaFilled( false );
@@ -51,15 +43,11 @@ public class Menu extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent game) {
         Object obj = game.getSource();
         if (obj == start) {
-                Database test = new Database();
-                test.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
-                test.setSize( 1000, 1000 );
-                test.setVisible( true );
+                Database data = new Database();
+                data.setDefaultCloseOperation( WindowConstants.EXIT_ON_CLOSE );
+                data.setSize( 1000, 1000 );
+                data.setVisible( true );
 
-        }
-        if (obj == help) {
-            JOptionPane.showMessageDialog( null, "Iniciar :"  +
-                    "Para iniciar o jogo clique em Start Game" );//Texto de ajuda //
         }
         if (obj == quit) {
             System.exit( 0 );
@@ -70,7 +58,7 @@ public class Menu extends JPanel implements ActionListener {
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent( g );
-        g.drawImage( new ImageIcon( Menu.class.getResource( "Menu.jpg" ) ).getImage(), 0, 0, 1080, 720, this );
+        g.drawImage( new ImageIcon( Menu.class.getResource( "Menu1.jpeg" ) ).getImage(), 0, 0, 1080, 720, this );
 
     }
 
