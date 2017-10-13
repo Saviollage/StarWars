@@ -22,7 +22,7 @@ public class Menu extends JPanel implements ActionListener {
         setLayout( null );
 
 
-        // Criacçao dos Botoes do menu inicial
+        // Criacçao dos Botoes do menu
 
 
         start.setBounds( 320, 350, 400, 90 );
